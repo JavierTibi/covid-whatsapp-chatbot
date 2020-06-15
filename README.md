@@ -37,10 +37,12 @@ php artisan migrate
 php artisan passport:install
 ```
 
-5. Run
+6. Run
 ```bash
 php artisan serve
 ```
+## Testing
+Import the `API BOALT.postman_collection.json` file into your Postman application and then you can test the Endpoints in your local environment
 
 ## API Documentation
 
