@@ -11,6 +11,10 @@ Use:
 
 As a extra I added an integration to Twilio where you can send a WhatsApp message to "+1 415 523 8886" with code <b>join grade-handsome.</b>
 
+![alt text](https://github.com/JavierTibi/boalt-api/blob/master/img_examples/Screenshot_Join.png?raw=true)
+
+![alt text](https://github.com/JavierTibi/boalt-api/blob/master/img_examples/Screenshot_Country.png?raw=true)
+
 or you can configure it locally following the instructions in the [Twilio Documentation](https://www.twilio.com/docs/whatsapp/api#overview) to create your Sandbox
 
 ## How to Install
@@ -38,4 +42,6 @@ php artisan passport:install
 php artisan serve
 ```
 
+## API Documentation
 
+[Documentation](https://documenter.getpostman.com/view/5402529/SzzheyRz?version=latest)
