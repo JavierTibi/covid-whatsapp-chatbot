@@ -25,7 +25,7 @@ or you can configure it locally following the instructions in the [Twilio Docume
 cd boalt-api
 composer install
 ```
-3. Set the Twilio database and variables in the .env
+3. Set the database and the Twilio variables in the .env
 4. Run
 ```bash
 php artisan key:generate
