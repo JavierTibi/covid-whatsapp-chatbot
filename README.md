@@ -13,6 +13,8 @@ As a extra I added an integration to Twilio where you can send a WhatsApp messag
 
 ![alt text](https://github.com/JavierTibi/boalt-api/blob/master/img_examples/Screenshot_Join.png?raw=true)
 
+You can then send the name of a country and the request will respond with the latest update of Covid cases in that country (Information provided by [Covid API](https://covid19.mathdro.id/api))
+
 ![alt text](https://github.com/JavierTibi/boalt-api/blob/master/img_examples/Screenshot_Country.png?raw=true)
 
 or you can configure it locally following the instructions in the [Twilio Documentation](https://www.twilio.com/docs/whatsapp/api#overview) to create your Sandbox
