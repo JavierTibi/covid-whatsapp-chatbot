@@ -10,6 +10,7 @@ class UserController extends Controller
 
     /**
      * Get user
+     *
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */

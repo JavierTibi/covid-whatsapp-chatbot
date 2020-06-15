@@ -13,6 +13,7 @@ class CovidBotController extends Controller
 
     /**
      * Get Covid cases by country
+     *
      * @param Request $request
      * @return JsonResponse
      * @throws GuzzleHttp\Exception\GuzzleException
@@ -75,6 +76,8 @@ class CovidBotController extends Controller
     }
 
     /**
+     * Get Covid statistics through an API
+     *
      * @param string $country
      * @return JsonResponse
      * @throws GuzzleHttp\Exception\GuzzleException

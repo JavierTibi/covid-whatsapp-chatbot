@@ -12,6 +12,7 @@ class NotificationController extends Controller
 {
     /**
      * Save notification in the database
+     *
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
@@ -34,13 +35,12 @@ class NotificationController extends Controller
 
     /**
      * Returns unread notifications and mark these as read
+     *
      * @return \Illuminate\Http\JsonResponse
      */
     public function get()
     {
         $notifications = Auth::user()->unreadNotifications;
-
-       // Auth::user()->unreadNotifications->markAsRead();
 
         return response()->json(
             $notifications

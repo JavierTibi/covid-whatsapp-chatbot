@@ -41,11 +41,7 @@ class AuthController extends Controller
     }
 
     /**
-     * Loginuse App\User;
-use Carbon\Carbon;
-use Exception;
-use GuzzleHttp\Client;
-     *
+     * Login
      * @param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
