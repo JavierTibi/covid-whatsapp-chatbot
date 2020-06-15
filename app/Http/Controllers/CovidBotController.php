@@ -82,11 +82,15 @@ class CovidBotController extends Controller
     public function getByCountry(string $country)
     {
         $httpClient = new GuzzleHttp\Client();
-        $response = $httpClient->request("GET", "https://covid19.mathdro.id/api/countries/$country");
 
-        return new JsonResponse([
-          json_decode($response->getBody()->getContents())
-        ]);
+        try {
+            $response = $httpClient->request("GET", "https://covid19.mathdro.id/api/countries/$country");
 
+            return new JsonResponse([
+                json_decode($response->getBody()->getContents())
+            ]);
+        } catch (\Exception $exception) {
+            return $this->response('Country not found', 404);
+        }
     }
 }
