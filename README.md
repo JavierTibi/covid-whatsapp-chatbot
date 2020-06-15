@@ -43,6 +43,19 @@ php artisan passport:install
 ```bash
 php artisan serve
 ```
+
+## Commands
+
+- Seeder that creates 100 different users
+```bash
+php artisan db:seed --class=UserSeeder
+```
+
+- Clears all notifications for all users (mark as read)
+```bash
+php artisan notifications:clear
+```
+
 ## Testing
 Import the `API BOALT.postman_collection.json` file into your Postman application and then you can test the Endpoints in your local environment
 
